@@ -1,0 +1,73 @@
+<html>
+<head>
+<style type="text/css">
+html,body {
+	height:100%;
+	color:#fff;
+}
+body {
+	background:url(sea.jpg) center center;
+	background-size:cover;
+	margin:0;
+	padding:0;
+}
+nav {
+	text-align:center;
+	font-size:25px;
+	font-color:#fff;
+	position:absolute;
+	top:50%;
+	width:100%;
+}
+<!--nav ul {
+	display:inline-block;
+}-->
+nav li {
+	list-style:none;
+	float:left;
+}
+nav li+li {
+	margin-left:20px;
+}
+a {
+text-decoration:none;
+}
+#info {
+	margin-left:20%;
+	position:absolute;
+	margin-top:5%;
+	color:#b9b;
+}
+</style>
+</head>
+<body>
+<p id="info"></p>
+<nav>
+<ul>
+  <li><a href="#">学习笔记</a></li>
+  <li><a href="#">电影/读书</a></li>
+  <li><a href="#">随笔</a></li>
+  <li><a href="#">图片</a></li>
+  <li><a href="#">音乐</a></li>
+  <li><a href="#">留言</a></li>
+</ul>
+</nav>
+<script>
+  var i=1;
+function showword(){
+  let str="欢迎光临我的主页<br>"+"我是likewind<br>我的标签：<br>"+
+      "“听音乐”,“黄金段LOLer”，“Web Learner”"+
+      "<br>想了解更多关于我吗？";
+var len=str.length;
+	if(str[i+1]!=('<'&&'b'&&'r')){
+	document.getElementById("info").innerHTML=str.substr(0,i);
+	}
+  i++;
+  if(i>len)
+    clearInterval("over");
+}
+    var over = setInterval("showword()",300);
+
+</script>
+</body>
+</html>
