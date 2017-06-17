@@ -2,84 +2,105 @@
 <head>
 <title>likewind's page</title>
 <style type="text/css">
+<!--导航栏-->
 html,body {
-	height:100%;
-	color:#fff;
-}
-body {
-	background:url(sea.jpg) center center;
-	background-size:cover;
-	margin:0;
-	padding:0;
+  margin:0px;
+  padding:0px;
 }
 nav {
-	text-align:center;
-	font-size:25px;
-	font-color:#fff;
-	position:absolute;
-	top:50%;
-	width:100%;
+  position:fixed;
+  top:0px;
+  background-color:#ddd;
+  width:27%;
+  height:100%;
 }
-<!--nav ul {
-	display:inline-block;
-}-->
-nav li {
-	list-style:none;
-	float:left;
+#navContain {
+  margin:0 90px 0 70px;
+  padding-top:60px;
 }
-nav li+li {
-	margin-left:20px;
+#header {
+  margin-left:0px;
+  margin-top:0px;
+  margin-bottom:40%;
 }
-a {
-text-decoration:none;
+#linkTo {
+  position:relative;
+  left:-40px;
 }
-#info {
-	margin-left:20%;
-	position:absolute;
-	margin-top:5%;
-	color:#b9b;
+li {
+  list-style:none;
 }
-a:link {
-  color:#d0d;
+li a{
+  display:block;
 }
-a:visited {}
-a:hover {
-  color:#808;
+ a {
+    text-decoration:none;
+  }
+ a:link {
+    color:#111;
+  }
+ a:visited {
+    color:#111; 
+  }
+ a:hover {
+    color:#999; 
+  }
+ a:active {
+    color:#999; 
+  }
+<!--导航栏-->
+<!--文本-->
+#container {
+  margin-left:20px;
+  margin-right:20px;
 }
-a:active {
-  color:#808;
+section {
+  background-color:#eee;
+  height:400px;
+  margin-top:20px;
+  margin-bottom:20px;
 }
+<!--文本-->
 </style>
 </head>
 <body>
-<p id="info"></p>
+<!--导航栏-->
 <nav>
-<ul>
-  <li><a href="learnNote.html">学习笔记</a></li>
-  <li><a href="#">电影/读书</a></li>
-  <li><a href="#">随笔</a></li>
-  <li><a href="#">音乐</a></li>
-  <li><a href="#">留言</a></li> 
-  <li><a href="#">关于</a></li>
+<div id="navContain">
+<div id="header">
+<a href="likwind.github.io" style="font-size:30px" class="linkDecor"><strong>肖申克</strong></a>
+<br><br>
+<small><i>又是一个很low的渣站</i></small>
+</div>
+<ul id="linkTo">
+  <hr>
+  <li><a href="learnNote.html" class="linkDecor">学习笔记</a></li><hr>
+  <li><a href="#" class="linkDecor">电影/读书</a></li><hr>
+  <li><a href="#" class="linkDecor">随笔</a></li><hr>
+  <li><a href="#" class="linkDecor">音乐</a></li><hr>
+  <li><a href="#" class="linkDecor">留言</a></li><hr>
+  <li><a href="#" class="linkDecor">关于</a></li><hr>
 </ul>
+<br>
+<a href="https://github.com/likwind">我的Github</a><br>
+mailto:<i>277424908#qq.com</i>
+<p>Coded by likewind &copy </p>
+</div>
 </nav>
-<script>
-
-var i=1;
-function showword(){
-  let str="欢迎光临我的主页<br>"+"我是likewind<br>我的标签：<br>"+
-      "“听音乐”,“黄金段LOLer”，“Web Learner”"+
-      "<br>想了解更多关于我吗？";
-var len=str.length;
-	if(str[i+1]!=('<'&&'b'&&'r')){
-	document.getElementById("info").innerHTML=str.substr(0,i);
-	}
-  i++;
-  if(i>len)
-    clearInterval("over");
-}
-    var over = setInterval("showword()",300);
-
-</script>
+<!--导航栏-->
+<!--文本-->
+<div id="container">
+<section id="textOne" class="essay">
+</section>
+<section id="textTwo" class="essay">
+</section>
+<section id="textThree" class="essay">
+</section>
+<section id="textFour" class="essay">
+</section>
+<section id="textFive" class="essay">
+</section>
+</div>
+<!--文本-->
 </body>
 </html>
