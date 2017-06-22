@@ -1,13 +1,101 @@
-@media screen and (min-width:800px){
+
 	html,body {
 		margin:0px;
 		padding:0px;
 	}
 	
-	p {
+	a,p,h1,i,blockquote,
+	footer {
 		font-size:auto;
 	}
 	
+	a {
+	  text-decoration:none;
+	}
+	
+	a:link {
+	  color:#111;
+	}
+	a:visited {
+	  color:#111; 
+	}
+	a:hover {
+	  color:#999; 
+	}
+	a:active {
+	  color:#999; 
+	}
+	
+	#myInfo {
+	  margin-left:15%;
+	  margin-right:10%;
+	}
+	
+	/*选项链接*/
+	ul {
+	position:relative;
+	margin:10% 15% 30% 5%;
+	}
+	
+	li {
+	  list-style:none;
+	}
+	
+	li a{
+	  display:block;
+	}
+	
+	#myInfo {
+	  margin-left:15%;
+	  margin-right:10%;
+	}
+	
+	/*文本start*/
+	#main{
+		margin:0px;
+		padding:0px;
+		width:75%;
+		float:right;
+	}
+	
+	#contain {
+		margin:0 5% 0 5%;
+	}
+	
+	footer,
+	#signature {
+		background-color:#eee;
+		height:auto;
+		border-radius:15px;
+		padding:3% 0 3% 0;
+		text-align:center;
+	}
+	
+	#signature{
+		font-size:1.5em;
+	}
+	blockquote:before{
+		content:open-quote;
+	}
+	blockquote:after{
+		content:close-quote;
+	}
+	
+	section .title {
+		margin-bottom:5%;
+		margin-top:0;
+	}
+	
+	section {
+		background-color:#eee;
+		height:auto;
+		padding:2% ;
+		margin:3% 0 3% 0;
+		border-radius:15px;
+	}
+	
+@media screen and (min-width:800px){	
+
 	/*导航栏*/
 	nav {
 		margin:0px;
@@ -29,90 +117,28 @@
 		margin-top:5%;
 		margin-bottom:15%;
 	}
-	
-	
-	#myInfo {
-	  margin-left:15%;
-	  margin-right:10%;
-	}
-	
-	/*选项链接*/
-	ul {
-	position:relative;
-	margin:10% 15% 30% 5%;
-	}
-	
-	li {
-	  list-style:none;
-	}
-	
-	li a{
-	  display:block;
-	}
-	
-	a {
-	  text-decoration:none;
-	}
-	
-	a:link {
-	  color:#111;
-	}
-	a:visited {
-	  color:#111; 
-	}
-	a:hover {
-	  color:#999; 
-	}
-	a:active {
-	  color:#999; 
-	}
-	/*导航栏*/
-	
-	/*文本*/
-	#main{
-		margin:0px;
-		padding:0px;
-		width:75%;
-		float:right;
-	}
-	#contain {
-		margin:0 5% 0 5%;
-	}
-	
-	footer,
-	#signature {
-		background-color:#eee;
-		height:auto;
-		border-radius:15px;
-		padding:3% 0 3% 0;
-		text-align:center;
-	}
-	#signature{
-		font-size:1.5em;
-	}
-	blockquote:before{
-		content:open-quote;
-	}
-	blockquote:after{
-		content:close-quote;
-	}
-	section {
-		background-color:#eee;
-		height:auto;
-		padding:2% ;
-		margin:3% 0 3% 0;
-		border-radius:15px;
-	}
-	
-	section .title {
-		margin-bottom:5%;
-		margin-top:0;
-	}
+	/*导航栏over*/
 }
 
 /*手机显示*/
 @media screen and (max-width:800px){
+	#header i{
+		display:none;
+	}
+	
+	#main{
+		margin:0px;
+		padding:0px;
+		width:100%;
+		float:down;
+	}
+	
 	#show{
 		display:none;
+	}
+	
+	.toggle{
+		float:right;
+		margin:2%2%
 	}
 }
