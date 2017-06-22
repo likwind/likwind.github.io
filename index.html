@@ -1,184 +1,157 @@
 <!DOCTYPE>
 <html lang="zh-CN" class=no-js">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width initial-scale=1.0" />  
-    <title>肖申克&#8211;那里没人叫肖申克</title>
-    <style type="text/css">
-		<!--导航栏-->
-		html,body {
-		  margin:0px;
-		  padding:0px;
-		}
-		p {
-		  font-size:auto;
-		}
-		#nav {
-		  margin:0px;
-		  padding:0px;
-		  background-color:#ddd;
-		  width:27%;
-		  height:100%;
-		  position:fixed;
-		  float:top;
-		  top:0px;
-		}
-		#header {
-		  margin-left:10%;
-		  margin-top:10%;
-		  margin-bottom:30%;
-		}
-		#linkTo {
-		  position:relative;
-		  margin-right:10%;
-		}
-		#info {
-		  margin-left:10%;
-		  margin-right:10%;
-		}
-		li {
-		  list-style:none;
-		}
-		li a{
-		  display:block;
-		}
-		a {
-		  text-decoration:none;
-		}
-		a:link {
-		  color:#111;
-		}
-		a:visited {
-		  color:#111; 
-		}
-		a:hover {
-		  color:#999; 
-		}
-		a:active {
-		  color:#999; 
-		}
-		<!--导航栏-->
-		<!--文本-->
-		#container {
-		  padding:0px;
-		  margin:0px;
-		}
-		section {
-		  background-color:#eee;
-		  height:auto;
-		  margin:5% 3% 5% 30%;
-		  padding:2%;
-		  border-radius:15px;
-		}
-		#jumpTo {
-		  background-color:#eee;
-		  height:5%;
-		  margin:-2% 3% 5% 30%;
-		  text-align:center;
-		  border-radius:15px;
-		}
-		#jumpTo a {
-		  margin-left:5%;
-		}
-		.essayTitle {
-		  margin-bottom:5%;
-		}
-		#textOne {
-		  background:url(父亲节.jpg) center center;
-		  background-size:cover;
-		}
-		<!--文本-->		
-		@media screen and(max-device-width:300px){
-		  #linkTo {
-		    display:none;
-		  }
-		}
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width initial-scale=1.0" />  
+		<title>肖申克&#8211;那里没人叫肖申克</title>
 		
-		#videoDemo{
-		  transform:rotate(-90deg);
-		}
-		</style>
+		<!--css-->
+		<link type="text/css" rel="stylesheet" href="index.css">
+		
+		<!--jquery-->
+		<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+	
+		<!--javascript-->
+		<link type="text/javascript" rel="stylesheet" src="index.js">
+		
     </head>
 <body>
-<!--导航栏-->
-	<div role="navigation" id="nav">
-	<div id="header">
-	<a href="likwind.github.io" style="font-size:30px" class="linkDecor"><strong>肖申克</strong></a>
-	<br><br>
-	<small><i>那种鸟儿 羽翼闪着自由的光辉</i></small>
-	</div>
-	<ul id="linkTo">
-	  <hr>
-	  <li><a href="#" class="linkDecor">学习笔记</a></li><hr>
-	  <li><a href="#" class="linkDecor">电影/读书</a></li><hr>
-	  <li><a href="#" class="linkDecor">随笔</a></li><hr>
-	  <li><a href="#" class="linkDecor">音乐</a></li><hr>
-	  <li><a href="#" class="linkDecor">留言</a></li><hr>
-	  <li><a href="#" class="linkDecor">关于</a></li><hr>
-	</ul>
-	<br>
-	<div id="info">
-	<a href="https://github.com/likwind">我的Github</a><br>
-	<a href="mailto:277424908@qq.com" target="_blank">我的邮箱</a>
-	<p>Coded by likewind &copy </p>
-	</div>
-	</div>
-	<!--导航栏-->
-	<!--文本-->
-	<div id="container">
+<!--导航栏start-->
+	<nav>
+		<div id="header">
+			<a href="likwind.github.io" style="font-size:1.5em" class="linkDecor"><strong>肖申克</strong></a>
+				<br><br>
+				<small><i>那种鸟儿 羽翼闪着自由的光辉</i></small>
+				<button class="toggle">menu</button>
+		</div>
+		
+		<div id="show">
+			<ul id="linkTo">
+			  <hr>
+			  <li><a href="#" class="linkDecor">学习笔记</a></li><hr>
+			  <li><a href="#" class="linkDecor">电影/读书</a></li><hr>
+			  <li><a href="#" class="linkDecor">随笔</a></li><hr>
+			  <li><a href="#" class="linkDecor">音乐</a></li><hr>
+			  <li><a href="#" class="linkDecor">留言</a></li><hr>
+			  <li><a href="#" class="linkDecor">关于</a></li><hr>
+			</ul>
+			
+			<div id="myInfo">
+				<a href="https://github.com/likwind">我的Github</a><br>
+				<a href="mailto:277424908@qq.com" target="_blank">我的邮箱</a>
+				<p>Coded by likewind &copy </p>
+			</div>
+		</div>
+	</nav>
+	<!--导航栏over-->
 	
-	<section id="text6_21_1" class="essay" style="margin-bottom:10px;">
-	  <h1 class="essayTitle">自制帧数gif&#8211;<small>西门吹雪Vs叶孤城</small></h1>
-	  
-	  <p class="wenBen">
-	  使用手机 APP <em>Animatic</em> 制作
-	  <div id="videoDemo">
-	   <video width="658" height="444" src="vs.mp4" loop="loop"
-	  autoplay="autoplay"></video>
-	  </div>
-	  2017/6/21  23:49
-	  <p>
-	  <p id="time_comment"></p>
-	</section>
-	<section id="textOne" class="essay" style="margin-bottom:10px;">
-	  <h1 class="essayTitle">爸爸 父亲节快乐！</h1>
-	  <p class="wenBen">
-	  <!--无法禁止音乐自启动
-	  <EMBED src="父亲.mp3" width=35% height=8%  loop="-1" autostart="false" volume="0" style="margin-left:0px;"></EMBED><br><br>
-	    无法禁止音乐自启动-->
-	  总是向你索取<br>却不曾说谢谢你<br>直到长大以后<br>才懂得你 不容易 <br><br>我是你的骄傲吗<br>
-		还在为我而担心吗<br>你牵挂的孩子啊 长大了<br><br>谢谢你做的一切<br><br><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By 骄</i>
-	  <p>
-	  <p id="time_comment"></p>
-	</section>
-	<section id="textTwo" class="essay">
-	  <h1 class="essayTitle">第一天总结</h1>
-	  <p class="wenBen">今天，先看了敖天羽小姐姐的个人主页 空之领域 xsky.me ,觉得简洁明了，思路清晰，
-	决定仿照的做一个自己的网页来练练手，今天完成了最开始的导航栏部分，感觉还不错 ^.^ 。要实现的东西还有很多，
-	但就是在将遇到的问题一点点解决的过程中，自己就会慢慢进步.<br><br>厚积而薄发.</p>
-	  <p id="time_comment"></p>
-	</section>
-	<section id="textThree" class="essay">
-	  <h1 class="essayTitle">哇 好气啊</h1>
-	  <p class="wenBen">技术还不够，无法从js里添加文章到网页上。<br><br>就更新添加文章来说，不能每次都在html文件里写吧。<br><br>
-	  第一个想法是先在js里写文章，然后通过链接到html文件里。这需要再学习DOM ，看W3SCHOOL的资料.<br><br>第二个想法是通过“后台管理”。
-	  但是“后台“和“后端”有什么联系？还要接着学习了解.<p>
-	  <p id="time_comment"></p>
-	</section>
-	<section id="textFour" class="essay">
-	  <h1 class="essayTitle">预期功能</h1>
-	  <p class="wenBen">1.显示书写上传时间，评论，浏览次数<br>2.最下端页数跳转<br>3.检索关键字，查找文章<br><br>以上即是最急需实现的功能<p>
-	  <p id="time_comment"></p>
-	</section>
+	<!--文本start-->
+	<div id="main">
+	<div id="contain">
+	
+		<div id="signature">
+			<blockquote>
+				牢锁心猿归定静，莫教意马任西东.
+			</blockquote>
+		</div>
+	<!--example
+		<section id="text" class="essay" style="">
+		  
+			<h1 class="title">
+			</h1>
+			<p class="essay">
+			</p>
+			<p class="upTime"></p>
+			
+		</section>
+	-->	
+		<section id="text6_22_1" class="essay" style="background:url(言叶之庭.jpg) center center background-size:cover;">
+		  
+			<h1 class="title">言叶之庭
+			</h1>
+			<p class="essay">
+				隐约雷鸣 阴霾天空 但盼风雨来 能留你在此<br>
+				隐约雷鸣 阴霾天空 即使天无雨 我亦留此处<br>
+				<cite>《言叶之庭》</cite>
+			</p>
+			<p class="upTime">2017/6/23 3:02</p>
+			
+		</section>
+		<!--6月21日更新-->
+		<section id="text6_21_1" class="essay" style="margin-bottom:10px;">
+		  
+			<h1 class="title">
+				自制帧数gif&#8211;<small>西门吹雪Vs叶孤城</small>
+			</h1>
+			<p class="essay">
+				使用手机 APP <em>Animatic</em> 制作
+				<div id="videoDemo" >
+					<video width=60% height=40% src="vs.mp4" loop="loop" autoplay="autoplay" style="transform:rotate(-90deg)"></video>
+				</div>
+			</p>
+			<p class="upTime">2017/6/21  23:49</p>
+			
+		</section>
+		
+		<!--6月18日父亲节更新-->
+		<section id="text6_18_1" class="essay" style="margin-bottom:10px; background:url(父亲节.jpg) center center;
+														background-size:cover;">
+		
+			<h1 class="title">
+				爸爸 父亲节快乐！
+			</h1>
+			<p class="wenBen">
+				<!--无法禁止音乐自启动
+				<EMBED src="父亲.mp3" width=35% height=8%  loop="-1" autostart="false" volume="0" style="margin-left:0px;"></EMBED><br><br>
+				-->
 
+				总是向你索取<br>却不曾说谢谢你<br>直到长大以后<br>才懂得你 不容易 <br><br>我是你的骄傲吗<br>
+				还在为我而担心吗<br>你牵挂的孩子啊 长大了<br><br>谢谢你做的一切<br><br><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By 骄</i>
+			</p>
+			<p id="time_comment"></p>
+			
+		</section>
+		
+		
+		<section id="text6_18_2" class="essay">
+			<h1 class="title">
+				第一天总结
+			</h1>
+			<p class="wenBen">
+				今天，先看了敖天羽小姐姐的个人主页 空之领域 xsky.me ,觉得简洁明了，思路清晰，
+				决定仿照的做一个自己的网页来练练手，今天完成了最开始的导航栏部分，感觉还不错 ^.^ 。要实现的东西还有很多，
+				但就是在将遇到的问题一点点解决的过程中，自己就会慢慢进步.<br><br>厚积而薄发.</p>
+			<p id="upTime"></p>
+		
+		</section>
+		
+		<section id="text6_18_3" class="essay">
+			<h1 class="title">
+				哇 好气啊
+			</h1>
+			<p class="wenBen">
+				技术还不够，无法从js里添加文章到网页上。<br><br>就更新添加文章来说，不能每次都在html文件里写吧。<br><br>
+				第一个想法是先在js里写文章，然后通过链接到html文件里。这需要再学习DOM ，看W3SCHOOL的资料.<br><br>第二个想法是通过“后台管理”。
+				但是“后台“和“后端”有什么联系？还要接着学习了解.
+			</p>
+			<p id="upTime"></p>
+		</section>
+		
+		<section id="textFour" class="essay">
+			<h1 class="title">
+				预期功能
+			</h1>
+			<p class="essay">
+				1.显示书写上传时间，评论，浏览次数<br>2.最下端页数跳转<br>3.检索关键字，查找文章<br><br>以上即是最急需实现的功能
+			</p>
+			<p id="upTime"></p>
+		</section>
+		
+		<!--文本over-->
+		<footer>
+			Thx for reading!  &nbsp;&nbsp; _(:3 」∠ )_
+		</footer>
 	</div>
-	<div id="jumpTo">
-	<a href="#" style="active">1</a>
-	<a href="#">2</a>
-	<a href="#">3</a>
-	<a href="#">4</a>
-	<a href="#">...</a>
 	</div>
-	<!--文本-->
 </body>
 </html>

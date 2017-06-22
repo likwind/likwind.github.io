@@ -1,0 +1,118 @@
+@media screen and (min-width:800px){
+	html,body {
+		margin:0px;
+		padding:0px;
+	}
+	
+	p {
+		font-size:auto;
+	}
+	
+	/*导航栏*/
+	nav {
+		margin:0px;
+		padding:0px;
+		background-color:#ddd;
+		width:25%;
+		height:100%;
+		position:fixed;
+		float:left;
+		top:0px;
+	}
+	
+	.toggle {
+		display:none;
+	}
+	
+	#header{
+		text-align:center;
+		margin-top:5%;
+		margin-bottom:15%;
+	}
+	
+	
+	#myInfo {
+	  margin-left:15%;
+	  margin-right:10%;
+	}
+	
+	/*选项链接*/
+	ul {
+	position:relative;
+	margin:10% 15% 30% 5%;
+	}
+	
+	li {
+	  list-style:none;
+	}
+	
+	li a{
+	  display:block;
+	}
+	
+	a {
+	  text-decoration:none;
+	}
+	
+	a:link {
+	  color:#111;
+	}
+	a:visited {
+	  color:#111; 
+	}
+	a:hover {
+	  color:#999; 
+	}
+	a:active {
+	  color:#999; 
+	}
+	/*导航栏*/
+	
+	/*文本*/
+	#main{
+		margin:0px;
+		padding:0px;
+		width:75%;
+		float:right;
+	}
+	#contain {
+		margin:0 5% 0 5%;
+	}
+	
+	footer,
+	#signature {
+		background-color:#eee;
+		height:auto;
+		border-radius:15px;
+		padding:3% 0 3% 0;
+		text-align:center;
+	}
+	#signature{
+		font-size:1.5em;
+	}
+	blockquote:before{
+		content:open-quote;
+	}
+	blockquote:after{
+		content:close-quote;
+	}
+	section {
+		background-color:#eee;
+		height:auto;
+		padding:2% ;
+		margin:3% 0 3% 0;
+		border-radius:15px;
+	}
+	
+	section .title {
+		margin-bottom:5%;
+		margin-top:0;
+	}
+}
+
+/*手机显示*/
+@media screen and (max-width:800px){
+	#show{
+		display:none;
+	}
+}
