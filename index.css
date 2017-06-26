@@ -108,7 +108,12 @@
 		top:0px;
 	}
 	
-	.toggle {
+	a,p,h1,i,blockquote,
+	footer {
+		font-size:auto;
+	}
+	
+	#menu{
 		display:none;
 	}
 	
@@ -126,6 +131,15 @@
 		display:none;
 	}
 	
+	#header{
+		margin:2% 3% 0 3%;
+	}
+	
+	a,p,h1,i,blockquote,
+	footer {
+		font-size:0.6em;
+	}
+	
 	#main{
 		margin:0px;
 		padding:0px;
@@ -133,12 +147,12 @@
 		float:down;
 	}
 	
-	#show{
+	#showNav{
 		display:none;
 	}
 	
-	.toggle{
+	#menu{
 		float:right;
-		margin:2%2%
+		margin:2% 2%
 	}
 }
