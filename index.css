@@ -148,7 +148,7 @@
 	}
 	
 	#showNav{
-		display:none;
+		visibility:hidden;
 	}
 	
 	#menu{
