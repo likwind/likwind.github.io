@@ -9,18 +9,21 @@
 	}
 	
 	a:link {
-	  color:#111;
+		color:#111;
 	}
 	a:visited {
-	  color:#111; 
+		color:#111; 
 	}
 	a:hover {
-	  color:#999; 
+		color:#999; 
 	}
 	a:active {
-	  color:#999; 
+		color:#999; 
 	}
 	
+	.currentPage {
+		background-color:#ddd;
+	}
 	#myInfo {
 	  margin-left:15%;
 	  margin-right:10%;
