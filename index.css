@@ -130,8 +130,7 @@
 		margin:3% 5% 0 5%;
 	}
 	
-	a,p,h1,i,blockquote,section,
-	footer {
+	*{
 		font-size:0.9em;
 	}
 	
