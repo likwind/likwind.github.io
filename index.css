@@ -89,6 +89,15 @@
 		border-radius:15px;
 	}
 	
+	q {
+		background-color: #ddd;
+		border-left: 1em solid #666;
+		margin-top:1em;
+		padding: 1em 1.5em 1em 1.5em;
+		position: relative;
+		line-height: 150%;
+		text-indent: 35px;
+	}
 @media screen and (min-width:800px){	
 
 	/*导航栏*/
