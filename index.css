@@ -22,9 +22,15 @@
 	}
 	
 	#myInfo {
-	  margin-left:15%;
-	  margin-right:10%;
+		margin-left:15%;
+		margin-right:10%;
 	}
+	
+	.peiTu {
+		width:100%;
+		text-align:center;
+	}
+	
 	
 	/*选项链接*/
 	ul {
